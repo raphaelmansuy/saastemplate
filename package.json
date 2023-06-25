@@ -9,6 +9,7 @@
     "start": "next start",
     "lint": "next lint",
     "test": "jest --watch",
+    "test:pre": "jest --coverage --watchAll=false",
     "test:e2e": "playwright test",
     "coverage": "jest --coverage",
     "format:write": "prettier --write \"**/*.{css,js,json,jsx,ts,tsx}\"",

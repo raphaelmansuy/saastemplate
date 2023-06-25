@@ -4,11 +4,9 @@ export default {
   title: 'app/Page',
   component: Page,
   tags: ['autodocs'],
-  argTypes: {
-  },
+  argTypes: {},
 }
 
 export const PageDefault = {
-  args: {
-  },
+  args: {},
 }

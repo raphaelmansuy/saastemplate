@@ -10,7 +10,7 @@ module.exports = function (plop) {
   plop.setGenerator('storiesPage', storyPageGenerator)
   plop.setGenerator('component', componentGenerator)
   plop.setGenerator('api', apiGenerator)
-//  plop.setGenerator('iconComponent', iconComponentGenerator)
+  //  plop.setGenerator('iconComponent', iconComponentGenerator)
 
   //#region  //*=========== Handlebars Helper ===========
   /**
