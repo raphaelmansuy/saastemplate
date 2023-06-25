@@ -14,7 +14,8 @@
     "format:write": "prettier --write \"**/*.{css,js,json,jsx,ts,tsx}\"",
     "format": "prettier \"**/*.{css,js,json,jsx,ts,tsx}\"",
     "storybook": "storybook dev -p 6006",
-    "build-storybook": "storybook build"
+    "build-storybook": "storybook build",
+    "plop": "plop"
   },
   "keywords": [],
   "author": "Raphaël MANSUY",
@@ -50,8 +51,10 @@
     "eslint-plugin-import": "^2.27.5",
     "eslint-plugin-storybook": "^0.6.12",
     "eslint-plugin-tailwindcss": "^3.12.1",
+    "inquirer-fuzzy-path": "^2.3.0",
     "jest": "^29.5.0",
     "jest-environment-jsdom": "^29.5.0",
+    "plop": "^3.1.2",
     "postcss": "^8.4.24",
     "postcss-preset-env": "^8.5.1",
     "prettier": "^2.8.8",

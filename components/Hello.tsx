@@ -4,7 +4,7 @@ type HelloWorldProps = {
   name: string
 }
 
-const HelloWorld = ({ name }: HelloWorldProps) => {
+const Hello = ({ name }: HelloWorldProps) => {
   return (
     <div className="bg-gray-100 p-4">
       <h1 className="text-2xl font-bold text-purple-600">Hello, {name}!</h1>
@@ -15,4 +15,4 @@ const HelloWorld = ({ name }: HelloWorldProps) => {
   )
 }
 
-export default HelloWorld
+export default Hello

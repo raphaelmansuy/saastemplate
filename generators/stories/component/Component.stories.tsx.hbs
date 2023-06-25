@@ -1,0 +1,14 @@
+import {{ properCase ( getName path ) }} from '@/{{ getFolder path }}/{{  getName path  }}'
+
+export default {
+  title: '{{ getFolder path }}/{{ properCase ( getName path ) }}',
+  component: {{ properCase ( getName path ) }},
+  tags: ['autodocs'],
+  argTypes: {
+  },
+}
+
+export const {{ properCase ( getName path ) }}Default = {
+  args: {
+  },
+}
