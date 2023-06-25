@@ -30,6 +30,6 @@
     "**/*.ts",
     "**/*.tsx",
     ".next/types/**/*.ts"
-, "__tests__/components/Hello.test.js"  ],
+, "__tests__/components/Hello.test.tsx"  ],
   "exclude": ["node_modules"]
 }

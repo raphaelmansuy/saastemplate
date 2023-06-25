@@ -5,7 +5,7 @@ import Hello from '@/components/Hello'
 
 describe('Hello', () => {
   it('should render without crashing', () => {
-    render(<Hello />)
+    render(<Hello name={''} />)
   })
 
   it('should render the correct text', () => {
@@ -14,7 +14,7 @@ describe('Hello', () => {
   })
 
   it('should render the correct text when no name is given', () => {
-    const { getByText } = render(<Hello />)
+    const { getByText } = render(<Hello name={''} />)
     expect(getByText('Hello, !')).toBeTruthy()
   })
 
