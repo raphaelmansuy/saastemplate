@@ -43,3 +43,6 @@ next-env.d.ts
 /test-results
 
 /coverage
+
+.idea
+.DS_Store
