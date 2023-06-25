@@ -2,12 +2,14 @@ const inquirerFuzzyPath = require('inquirer-fuzzy-path')
 const storyComponentGenerator = require('./generators/stories/component/story')
 const storyPageGenerator = require('./generators/stories/page/story')
 const componentGenerator = require('./generators/component')
+const apiGenerator = require('./generators/api')
 //const iconComponentGenerator = require('./src/generators/iconComponent')
 
 module.exports = function (plop) {
   plop.setGenerator('storiesComponent', storyComponentGenerator)
   plop.setGenerator('storiesPage', storyPageGenerator)
   plop.setGenerator('component', componentGenerator)
+  plop.setGenerator('api', apiGenerator)
 //  plop.setGenerator('iconComponent', iconComponentGenerator)
 
   //#region  //*=========== Handlebars Helper ===========
