@@ -3,6 +3,7 @@ import nextJest from 'next/jest.js'
 const createJestConfig = nextJest({
   // Provide the path to your Next.js app to load next.config.js and .env files in your test environment
   dir: './',
+  // exclude some directories because we don't want to test them
 })
  
 // Add any custom config to be passed to Jest
@@ -10,6 +11,9 @@ const createJestConfig = nextJest({
 const config = {
   // Add more setup options before each test is run
   // setupFilesAfterEnv: ['<rootDir>/jest.setup.js'],
+
+  // exclude e2e tests from jest tests
+  testPathIgnorePatterns: ['<rootDir>/cypress/','<rootDir>/e2e/'],
  
   testEnvironment: 'jest-environment-jsdom',
 }
