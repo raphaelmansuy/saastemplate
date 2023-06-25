@@ -11,11 +11,13 @@ To get started with this template, follow these steps:
 3. Start the development server using `pnpm dev` or `yarn dev`.
 4. Open your browser and navigate to `http://localhost:3000` to see the application.
 
-## Development
+## Features
 
-During development, you can take advantage of the following tools and frameworks used in this template:
+This template provides a clean and efficient development environment for building static and server-side rendered applications. It includes the following features:
 
 - 🚀 [NextJS 13](https://nextjs.org/blog/next-13): A powerful React framework that enables the creation of static and server-side rendered applications. It also includes a built-in API for creating custom endpoints.
+
+- 🤖 [React 18](https://react.dev/blog/2022/03/29/react-v18) 
 
 - 💎 [Prettier](https://prettier.io/): A code formatter that ensures consistent code style across your project.
 
@@ -29,6 +31,68 @@ During development, you can take advantage of the following tools and frameworks
 
 - ✅ [Playwright](https://playwright.dev/): A Node library that allows you to write end-to-end tests for your application.
 
+- 📕 [Storybook](https://storybook.js.org/): A development environment for UI components that allows you to build and test components in isolation.
+
+
 Feel free to explore and leverage these tools to enhance your development experience.
 
 We hope this template accelerates your project setup and empowers you to build amazing applications. Happy coding!
+
+
+## Getting Started
+
+To get started with this template, follow these steps:
+
+1. Clone this repository to your local machine.
+
+```bash
+git clone https://wwww
+```
+
+2. Install the necessary dependencies by running `pnpm install` 
+
+```bash
+pnpm install
+```
+
+3. Start the development server using `pnpm dev` 
+
+```bash
+pnpm dev
+```
+
+4. Open your browser and navigate to `http://localhost:3000` to see the application.
+
+
+## Features
+
+1. Using storybook
+
+```bash
+pnpm storybook
+```
+
+2. Using jest
+
+```bash
+pnpm test
+```
+
+3. Using playwright
+
+```bash
+pnpm test:e2e
+```
+
+4. Using eslint
+
+```bash
+pnpm lint
+```
+
+5. Using prettier
+
+```bash
+pnpm format:write
+```
+
