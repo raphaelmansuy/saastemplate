@@ -15,15 +15,19 @@ To get started with this template, follow these steps:
 
 During development, you can take advantage of the following tools and frameworks used in this template:
 
-- [NextJS 13](https://nextjs.org/blog/next-13): A powerful React framework that enables the creation of static and server-side rendered applications. It also includes a built-in API for creating custom endpoints.
+- 🚀 [NextJS 13](https://nextjs.org/blog/next-13): A powerful React framework that enables the creation of static and server-side rendered applications. It also includes a built-in API for creating custom endpoints.
 
-- [Prettier](https://prettier.io/): A code formatter that ensures consistent code style across your project.
+- 💎 [Prettier](https://prettier.io/): A code formatter that ensures consistent code style across your project.
 
-- [ESLint](https://eslint.org/): A linter that helps you identify and fix issues in your JavaScript code, ensuring best practices and maintaining code quality.
+- 🔨 [ESLint](https://eslint.org/): A linter that helps you identify and fix issues in your JavaScript code, ensuring best practices and maintaining code quality.
 
-- [TailwindCSS](https://tailwindcss.com/): A utility-first CSS framework that allows you to build customized designs directly in your HTML, reducing the need for complex CSS files.
+- 🎉 [TailwindCSS](https://tailwindcss.com/): A utility-first CSS framework that allows you to build customized designs directly in your HTML, reducing the need for complex CSS files.
 
-- [Typescript](https://www.typescriptlang.org/): A typed superset of JavaScript that provides enhanced error checking and code completion, resulting in more reliable and maintainable code.
+- ⚙️ [Typescript](https://www.typescriptlang.org/): A typed superset of JavaScript that provides enhanced error checking and code completion, resulting in more reliable and maintainable code.
+
+- 🦑 [Jest](https://jestjs.io/) and [React Testing Library](https://testing-library.com/docs/react-testing-library/intro/): A testing framework and library that allows you to write unit tests for your React components.
+
+- ✅ [Playwright](https://playwright.dev/): A Node library that allows you to write end-to-end tests for your application.
 
 Feel free to explore and leverage these tools to enhance your development experience.
 
