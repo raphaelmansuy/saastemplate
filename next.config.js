@@ -6,9 +6,9 @@ module.exports = {
       config.module.rules.push({
         test: /\.(stories|test)\.(tsx?|ts?)$/,
         loader: 'ignore-loader',
-      });
+      })
     }
 
-    return config;
+    return config
   },
 }

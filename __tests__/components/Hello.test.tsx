@@ -17,5 +17,4 @@ describe('Hello', () => {
     const { getByText } = render(<Hello name={''} />)
     expect(getByText('Hello, !')).toBeTruthy()
   })
-
 })
