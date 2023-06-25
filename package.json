@@ -9,6 +9,7 @@
     "start": "next start",
     "lint": "next lint",
     "test": "jest --watch",
+    "test:e2e": "playwright test",
     "coverage": "jest --coverage",
     "format:write": "prettier --write \"**/*.{css,js,json,jsx,ts,tsx}\"",
     "format": "prettier \"**/*.{css,js,json,jsx,ts,tsx}\"",
@@ -26,6 +27,7 @@
   "devDependencies": {
     "@babel/plugin-transform-runtime": "^7.22.5",
     "@babel/runtime": "^7.22.5",
+    "@playwright/test": "^1.35.1",
     "@storybook/addon-essentials": "^7.0.23",
     "@storybook/addon-interactions": "^7.0.23",
     "@storybook/addon-links": "^7.0.23",
